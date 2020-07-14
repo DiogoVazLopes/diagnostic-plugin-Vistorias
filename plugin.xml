@@ -66,7 +66,7 @@
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription" comment="iOS 11 or greater">
-            <string>$LOCATION_ALWAYS_AND_WHEN_IN_USE_DESCRIPTION</string>
+            <string>The location is required to identify the latitude and longitude from which the photo is taken.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" comment="iOS 10 or below">
