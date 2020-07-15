@@ -70,7 +70,7 @@
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" comment="iOS 10 or below">
-            <string>$LOCATION_ALWAYS_USAGE_DESCRIPTION</string>
+            <string>The location is required to identify the latitude and longitude from which the photo is taken.</string>
         </config-file>
         <!--END_MODULE LOCATION-->
 
