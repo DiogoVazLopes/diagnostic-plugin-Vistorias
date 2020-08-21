@@ -62,15 +62,15 @@
         <framework src="CoreLocation.framework" />
 
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" comment="Default usage descriptions: override as necessary in .plist">
-            <string>The location is required to identify the latitude and longitude from which the photo is taken.</string>
+            <string>$LOCATION_WHEN_IN_USE_DESCRIPTION</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription" comment="iOS 11 or greater">
-            <string>The location is required to identify the latitude and longitude from which the photo is taken.</string>
+            <string>$LOCATION_ALWAYS_AND_WHEN_IN_USE_DESCRIPTION</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" comment="iOS 10 or below">
-            <string>The location is required to identify the latitude and longitude from which the photo is taken.</string>
+            <string>$LOCATION_ALWAYS_USAGE_DESCRIPTION</string>
         </config-file>
         <!--END_MODULE LOCATION-->
 
@@ -132,7 +132,7 @@
         <framework src="AVFoundation.framework" />
 
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>The camera is required to take photos of the vehicle.</string>
+            <string>$CAMERA_USAGE_DESCRIPTION</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
