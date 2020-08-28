@@ -27,9 +27,9 @@
 
         <preference name="CALENDARS_USAGE_DESCRIPTION"/>
         <preference name="CAMERA_USAGE_DESCRIPTION"/>
-        <preference name="LOCATION_ALWAYS_AND_WHEN_IN_USE_DESCRIPTION"/>
+        <preference name="LOCATION_ALWAYS_AND_WHENINUSE_USAGE_DESCRIPTION"/>
         <preference name="LOCATION_ALWAYS_USAGE_DESCRIPTION"/>
-        <preference name="LOCATION_WHEN_IN_USE_DESCRIPTION"/>
+        <preference name="LOCATION_WHENINUSE_USAGE_DESCRIPTION"/>
         <preference name="MICROPHONE_USAGE_DESCRIPTION"/>
         <preference name="PHOTO_LIBRARY_USAGE_DESCRIPTION"/> 
         <preference name="BLUETOOTH_USAGE_DESCRIPTION"/> 
@@ -62,11 +62,11 @@
         <framework src="CoreLocation.framework" />
 
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" comment="Default usage descriptions: override as necessary in .plist">
-            <string>$LOCATION_WHEN_IN_USE_DESCRIPTION</string>
+            <string>$LOCATION_WHENINUSE_USAGE_DESCRIPTION</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription" comment="iOS 11 or greater">
-            <string>$LOCATION_ALWAYS_AND_WHEN_IN_USE_DESCRIPTION</string>
+            <string>$LOCATION_ALWAYS_AND_WHENINUSE_USAGE_DESCRIPTION</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" comment="iOS 10 or below">
